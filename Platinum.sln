@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platinum", "Platinum\Platinum.csproj", "{4BD00DE3-AA6E-4C95-911F-53857175EF8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platinum.Test", "Platinum.Test\Platinum.Test.csproj", "{CAE40AF8-E8E1-4BA9-A9EC-586F4AA63525}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platinum.Test", "Platinum.Test\Platinum.Test.csproj", "{CAE40AF8-E8E1-4BA9-A9EC-586F4AA63525}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

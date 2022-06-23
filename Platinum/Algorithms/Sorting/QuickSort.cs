@@ -2,7 +2,7 @@
 {
     public partial class Sorting
     {
-        public static int[] QuickSort(int[] array, int left, int right, Direction direction)
+        public int[] QuickSort(int[] array, int left, int right, Direction direction)
         {
             if (direction == Direction.Ascending)
             {
@@ -22,7 +22,6 @@
                 }
                 if (left < j) QuickSort(array, left, j, Direction.Ascending);
                 if (i < right) QuickSort(array, i, right, Direction.Ascending);
-                return array;
             }
             else
             {
@@ -42,8 +41,8 @@
                 }
                 if (left < j) QuickSort(array, left, j, Direction.Descending);
                 if (i < right) QuickSort(array, i, right, Direction.Descending);
-                return array;
             }
+            return array;
         }
     }
 }
