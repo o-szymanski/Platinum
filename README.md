@@ -4,7 +4,7 @@ Library licensed by MIT for the purpose of uploading and testing the first proje
 
 ## Tech Stack
 
-.NET, C#, Nunit
+C#, Nunit
 
 ## License
 
