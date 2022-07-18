@@ -1,6 +1,6 @@
 # Platinum
 
-Library licensed by MIT for the purpose of uploading and testing the first project on nuget.com related to algorithms and other activities.
+The application was created to upload and test the first project on nuget.com related to algorithms and other activities.
 
 ## Tech Stack
 
