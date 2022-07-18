@@ -7,14 +7,12 @@ namespace Platinum.Test.Tests
     public class SortingTest
     {
         public Sorting Sorting = new();
-        public int[] IntSequence;
+        public int[] IntSequence = Enumerable.Range(1, 100).ToArray();
 
         [SetUp]
         public void Test()
         {
-            int[] sequence = Enumerable.Range(1, 100).ToArray();
-            Extension.Shuffle(sequence);
-            IntSequence = sequence;
+            Extension.Shuffle(IntSequence);
         }
 
         [Test]
